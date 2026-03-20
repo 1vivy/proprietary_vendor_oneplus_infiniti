@@ -1,5 +1,5 @@
 ﻿<filter-conf>
-    <version>2025120301</version>
+    <version>2026010401</version>
     <isOpen>1</isOpen>
     <filter-name>sys_scene_touch_config</filter-name>
 
@@ -7,7 +7,8 @@
 			<default>
 				<!-- HBP框架应用调整触控效果参数 -->
 				<!-- 优化触控锁点参数 -->
-				<command name="sensitive_level"	value="mod para_effect sensitive_level:16"/>
+				<!-- sensitive_level default 0xFFFF -->
+				<command name="sensitive_level"	value="mod para_effect sensitive_level:65535"/>
 				<command name="set_package_type"	value="mod para_effect set_package_type:0"/>
 			</default>
 
