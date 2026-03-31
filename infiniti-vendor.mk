@@ -1459,7 +1459,6 @@ PRODUCT_PACKAGES += \
     libbitmlengine \
     libbitmlenginev2 \
     libcamerabuffer \
-    libcamerapoweroptfeature \
     libcamxasyncdumpmanager \
     libcamxcommonutils \
     libcamxcoreutils \
