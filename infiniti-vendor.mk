@@ -155,6 +155,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio/oprec_audrec_params/oprec_record_ID9_HE.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/oprec_audrec_params/oprec_record_ID9_HE.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio/oprec_audrec_params/oprec_record_calibration.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/oprec_audrec_params/oprec_record_calibration.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio/oprec_nn_ve.mnn:$(TARGET_COPY_OUT_ODM)/etc/audio/oprec_nn_ve.mnn \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPAX_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPAX_Version.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPREC_version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPREC_version.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPSPT_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSPT_Version.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelMain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelMain.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelTele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelTele.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelWide.bin \
