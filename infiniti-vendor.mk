@@ -680,6 +680,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/gamma_masterMode_quick_hdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_masterMode_quick_hdr_conf.json \
+    vendor/oneplus/infiniti/proprietary/odm/etc/camera/gamma_masterMode_quick_sdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_masterMode_quick_sdr_conf.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/gamma_photo_hdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_photo_hdr_conf.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/gamma_photo_sdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_photo_sdr_conf.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/gamma_preview_hdr_conf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/gamma_preview_hdr_conf.json \
@@ -930,6 +931,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_car_motion.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_car_motion.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_car_scene.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_car_scene.json \
+    vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_flight_scene.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_flight_scene.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_gyro_cal_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_gyro_cal_0.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_mag_fusion_v2.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_mag_fusion_v2.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_pedometer_minute.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_pedometer_minute.json \

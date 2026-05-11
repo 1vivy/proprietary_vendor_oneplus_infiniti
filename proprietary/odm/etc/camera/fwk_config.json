@@ -281,7 +281,9 @@
     },
     "com.shuru.nearme": {
         "previewSizeForAPI1Width": 1920,
-        "previewSizeForAPI1Height": 1080
+        "previewSizeForAPI1Height": 1080,
+        "maxWidthFilterForNotAddSizeAPI1": 1920,
+        "maxHeightFilterForNotAddSizeAPI1": 1080
     },
     "com.pinterest": {
         "previewSizeForAPI1Width": 2160,
@@ -430,6 +432,7 @@
         ],
         "app_disable_fb_activity": [
             "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.camera.ui.CameraActivity",
             "com.whatsapp.qrcode.contactqr.ContactQrActivity",
             "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
             "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"

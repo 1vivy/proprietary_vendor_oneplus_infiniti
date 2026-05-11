@@ -408,6 +408,25 @@
       },
       {
         "condition": {
+          "and": {
+            "eq": [
+              "paramsHolder->current_burst_capture_type",
+              2
+            ],
+            "eq1": [
+              "captureMode",
+              "APS_CAPMODE_FRONT_NORMAL"
+            ],
+            "eq2": [
+              "cameraId",
+              1
+            ]
+          }
+        },
+        "filterResult": false
+      },
+      {
+        "condition": {
           "or": {
             "eq": [
               "isFromMainMenu",
