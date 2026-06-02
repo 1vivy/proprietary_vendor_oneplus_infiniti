@@ -12452,25 +12452,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "camera.oemlayer.v2",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    check_elf_files: false,
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "com.qti.sensor.infinitifront",
     owner: "oneplus",
     strip: {
@@ -12660,26 +12641,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "camera/components",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.oplus.node.videodehaze",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    check_elf_files: false,
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/camera/components/com.oplus.node.videodehaze.so",
             ],
         },
     },

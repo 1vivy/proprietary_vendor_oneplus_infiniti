@@ -1604,13 +1604,11 @@ PRODUCT_PACKAGES += \
     camera.oemlayer.healthmonitor \
     camera.oemlayer.logger \
     camera.oemlayer.uilayer \
-    camera.oemlayer.v2 \
     com.qti.sensor.infinitifront \
     com.qti.sensor.infinitimain \
     com.qti.sensor.infinititele \
     com.qti.sensor.infinitiultrawide \
     com.oplus.node.detect \
-    com.oplus.node.videodehaze \
     com.oplus.node.mvgsat \
     com.oplus.node.postproc \
     com.oplus.node.sstabdefer \
