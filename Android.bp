@@ -12452,6 +12452,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    // OnePlus OEM HAL layer. ro.hardware.camera=oemlayer.v2 makes hw_get_module
+    // load this from /odm/lib64/hw, so it MUST install there (not /odm/lib64).
+    // Required by the OplusCamera OCS SDK: without it CameraCharacteristicsWrapper
+    // is null -> NPE in BaseMode.getPictureSizes. (videodehaze node intentionally
+    // NOT re-added: it had a missing libVideoDehaze.so dep that aborted CHI enum.)
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qti.sensor.infinitifront",
     owner: "oneplus",
     strip: {

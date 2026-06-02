@@ -1604,6 +1604,7 @@ PRODUCT_PACKAGES += \
     camera.oemlayer.healthmonitor \
     camera.oemlayer.logger \
     camera.oemlayer.uilayer \
+    camera.oemlayer.v2 \
     com.qti.sensor.infinitifront \
     com.qti.sensor.infinitimain \
     com.qti.sensor.infinititele \
