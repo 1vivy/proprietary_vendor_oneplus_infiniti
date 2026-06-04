@@ -1632,6 +1632,7 @@ PRODUCT_PACKAGES += \
     libAIMotion \
     libAlgoInterface \
     libAlgoProcess \
+    libalogencrypt \
     libAncFilter \
     libAncSegBaseSdk \
     libAncSegmentSdk \
