@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <algo>
 	<version>2025121601</version>
-	<algo-version>v2.0.9.180</algo-version>
+	<algo-version>v2.0.10.186</algo-version>
 		<modules id="AlgoParam" enable="true" hint="">
 			<param name="prjId" type="u32" hint="">
 				<value>24831</value>
