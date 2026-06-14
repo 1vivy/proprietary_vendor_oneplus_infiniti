@@ -1587,6 +1587,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libalogencrypt \
     libQnnHtpV81Skel.AIMotion \
     libQnnHtp.AIMotion \
     libQnnHtpV81Stub.AIMotion \
@@ -1626,6 +1627,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
     com.oplus.node.preview.v2 \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \

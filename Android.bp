@@ -11972,6 +11972,41 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libalogencrypt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libQnnHtpV81Skel.AIMotion",
     stem: "libQnnHtpV81Skel",
     owner: "oneplus",
@@ -13326,6 +13361,64 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libui",
+                "android.hardware.graphics.common@1.0",
+                "android.hardware.graphics.common@1.1",
+                "android.hardware.graphics.common@1.2",
+                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
+                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
+                "vendor.oplus.hardware.cammidasservice-V1-ndk",
+                "libmidasserviceintf_aidl",
+                "android.frameworks.sensorservice@1.0",
+                "libsensorbridge",
+                "libbinder_ndk",
+                "vendor.oplus.hardware.charger-V8-ndk",
+                "liboutils",
+                "libocompression",
+                "vendor.oplus.hardware.commondcs-V1-ndk",
+                "libbinder",
+                "vendor.oplus.hardware.osense.client-V1-ndk",
+                "libosenseaidlhalclient",
+                "libhardware_legacy",
+                "libhwconfigurationutil",
+                "libvndksupport",
+                "liboplusdfx",
+                "vendor.oplus.hardware.camera.aon-service-impl",
+                "libosensenativeproxy_client",
+                "camera.oemlayer.uilayer",
+                "camera.oemlayer.logger",
+                "camera.oemlayer.healthmonitor",
+                "libopluscameraframeboost",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
     prefer: true,
     device_specific: true,
 }
