@@ -8,6 +8,7 @@ soong_namespace {
         "hardware/qcom-caf/sm8850",
         "vendor/oneplus/sm8850-common",
         "vendor/qcom/opensource/commonsys-intf/display",
+        "device/oneplus/infiniti",
     ],
 }
 
@@ -11178,6 +11179,76 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libui-stock",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libui-stock.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.allocator@2.0",
+                "android.hardware.graphics.allocator@3.0",
+                "android.hardware.graphics.allocator@4.0",
+                "android.hardware.graphics.common@1.2",
+                "android.hardware.graphics.mapper@2.0",
+                "android.hardware.graphics.mapper@2.1",
+                "android.hardware.graphics.mapper@3.0",
+                "android.hardware.graphics.mapper@4.0",
+                "libbase",
+                "libbinder_ndk",
+                "libcutils",
+                "libgralloctypes",
+                "libhidlbase",
+                "libsync",
+                "libutils",
+                "liblog",
+                "libvndksupport",
+                "android.hardware.graphics.common-V7-ndk",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libutils-stock",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libutils-stock.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvndksupport",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libvideoml",
     owner: "oneplus",
     strip: {
@@ -11898,6 +11969,41 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     prefer: true,
     soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalogencrypt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libalogencrypt.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -13260,6 +13366,64 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "camera.oemlayer.v2",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/camera.oemlayer.v2.so",
+            ],
+            shared_libs: [
+                "libcamera_metadata",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libui",
+                "android.hardware.graphics.common@1.0",
+                "android.hardware.graphics.common@1.1",
+                "android.hardware.graphics.common@1.2",
+                "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
+                "vendor.oplus.hardware.camera_rfi-V1-service-impl",
+                "vendor.oplus.hardware.cammidasservice-V1-ndk",
+                "libmidasserviceintf_aidl",
+                "android.frameworks.sensorservice@1.0",
+                "libsensorbridge",
+                "libbinder_ndk",
+                "vendor.oplus.hardware.charger-V8-ndk",
+                "liboutils",
+                "libocompression",
+                "vendor.oplus.hardware.commondcs-V1-ndk",
+                "libbinder",
+                "vendor.oplus.hardware.osense.client-V1-ndk",
+                "libosenseaidlhalclient",
+                "libhardware_legacy",
+                "libhwconfigurationutil",
+                "libvndksupport",
+                "liboplusdfx",
+                "vendor.oplus.hardware.camera.aon-service-impl",
+                "libosensenativeproxy_client",
+                "camera.oemlayer.uilayer",
+                "camera.oemlayer.logger",
+                "camera.oemlayer.healthmonitor",
+                "libopluscameraframeboost",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "lib2DSlender",
     owner: "oneplus",
     strip: {
@@ -13441,6 +13605,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libAlgoProcess.so",
             ],
             shared_libs: [
+                "libapsfixup",
                 "android.hardware.graphics.mapper@4.0",
                 "android.hardware.graphics.common-V7-ndk",
                 "android.hardware.graphics.allocator-V2-ndk",
@@ -17311,8 +17476,8 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libdmabufheap",
                 "libnativewindow",
-                "libui",
-                "libutils",
+                "libui-stock",
+                "libutils-stock",
                 "libcutils",
                 "liblog",
                 "libc++",

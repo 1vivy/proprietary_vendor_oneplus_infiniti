@@ -979,9 +979,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libafepanel_s3910_boe.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libafepanel_s3910_boe.so \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libafepanel_s3910_tianma.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libafepanel_s3910_tianma.so \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libpostalgo.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libpostalgo.so \
-    vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libpostalgo_symbol.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libpostalgo_symbol.so \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libprealgo.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libprealgo.so \
-    vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/libprealgo_symbol.so:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/libprealgo_symbol.so \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/main_synaptics-s3910_boe_aging_limit.csv:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/main_synaptics-s3910_boe_aging_limit.csv \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/main_synaptics-s3910_boe_limit.csv:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/main_synaptics-s3910_boe_limit.csv \
     vendor/oneplus/infiniti/proprietary/odm/firmware/tp/infiniti/main_synaptics-s3910_tianma_aging_limit.csv:$(TARGET_COPY_OUT_ODM)/firmware/tp/infiniti/main_synaptics-s3910_tianma_aging_limit.csv \
@@ -1554,6 +1552,8 @@ PRODUCT_PACKAGES += \
     libswregistrationalgo \
     libtfestriping \
     libubifocus \
+    libui-stock \
+    libutils-stock \
     libvideoml \
     libDLDPP_skel \
     libHexlpQnnHtp \
@@ -1587,6 +1587,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libalogencrypt \
     libQnnHtpV81Skel.AIMotion \
     libQnnHtp.AIMotion \
     libQnnHtpV81Stub.AIMotion \
@@ -1626,6 +1627,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
     com.oplus.node.preview.v2 \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
