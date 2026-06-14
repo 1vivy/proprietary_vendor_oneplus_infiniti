@@ -9,3 +9,6 @@ proprietary/odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so filter=lfs diff
 proprietary/odm/lib64/libarcsoft_turbo_hdr_raw.so filter=lfs diff=lfs merge=lfs -text
 proprietary/odm/lib64/libarcsoft_turbo_hdr_raw_front.so filter=lfs diff=lfs merge=lfs -text
 radio/* filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/hw/camera.oemlayer.v2.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib64/libalogencrypt.so filter=lfs diff=lfs merge=lfs -text
+proprietary/odm/lib/libalogencrypt.so filter=lfs diff=lfs merge=lfs -text
