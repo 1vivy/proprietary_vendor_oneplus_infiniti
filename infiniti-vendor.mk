@@ -1565,10 +1565,6 @@ PRODUCT_PACKAGES += \
     libaiboost_qnn_external_delegate.aiframe \
     libqcom_llm \
     libtransformer_lite \
-    camera.oemlayer.adapter \
-    camera.oemlayer.healthmonitor \
-    camera.oemlayer.logger \
-    camera.oemlayer.uilayer \
     com.qti.sensor.infinitifront \
     com.qti.sensor.infinitimain \
     com.qti.sensor.infinititele \
