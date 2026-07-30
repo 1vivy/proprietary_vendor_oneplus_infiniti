@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "hardware/oplus",
         "hardware/qcom-caf/sm8850",
+        "proprietary/vendor/oneplus/camera-sm8850-common",
         "vendor/oneplus/sm8850-common",
         "vendor/qcom/opensource/commonsys-intf/display",
     ],
