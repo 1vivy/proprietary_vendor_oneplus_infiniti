@@ -900,7 +900,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
     vendor/oneplus/infiniti/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/infiniti/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
-    vendor/oneplus/infiniti/proprietary/odm/etc/init/android.hardware.ir-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.ir-service.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
@@ -1941,11 +1940,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
-    android.hardware.ir-service.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
-    android.hardware.ir-service \
     vendor.oplus.hardware.cammidasservice-V1-service
