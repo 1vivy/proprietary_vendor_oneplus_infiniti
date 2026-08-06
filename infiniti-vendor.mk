@@ -897,7 +897,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/display/qdcm_calib_data_AD296_P_3_A0020_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AD296_P_3_A0020_dsc_cmd_mode_panel.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/infiniti/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/infiniti/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
+    vendor/oneplus/infiniti/proprietary/odm/etc/init/android.hardware.ir-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.ir-service.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
@@ -906,6 +908,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24863:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24863 \
     vendor/oneplus/infiniti/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplus_ftm_smart_pa.wav:$(TARGET_COPY_OUT_ODM)/etc/oplus_ftm_smart_pa.wav \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_ODM)/etc/sdm_display_resolution_extn.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/infiniti_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/infiniti_qrd_ois_system.json \
@@ -933,7 +956,141 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_rotation_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotation_detect.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_rotv.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotv.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE_SPK.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE_SPK.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC_SPK.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC_SPK.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_0.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_0.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_10.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_10.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_100.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_100.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_101.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_101.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_102.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_102.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_103.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_103.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_104.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_104.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_105.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_105.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_106.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_106.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_107.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_107.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_108.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_108.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_109.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_109.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_11.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_11.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_110.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_110.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_111.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_111.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_112.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_112.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_118.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_118.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_12.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_12.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_122.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_122.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_170.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_170.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_2.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_3.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_302.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_302.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_303.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_303.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_304.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_304.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_305.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_305.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_308.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_308.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_309.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_309.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_310.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_310.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_315.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_315.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_316.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_316.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_318.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_318.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_362.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_362.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_363.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_363.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_364.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_364.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_365.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_365.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_366.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_366.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_367.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_367.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_368.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_368.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_369.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_369.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_370.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_370.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_4.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_41.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_41.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_42.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_42.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_428.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_428.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_429.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_429.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_43.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_43.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_430.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_430.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_431.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_431.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_432.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_432.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_433.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_433.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_434.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_434.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_435.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_435.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_436.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_436.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_437.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_437.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_438.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_438.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_439.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_439.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_44.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_44.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_440.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_440.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_441.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_441.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_442.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_442.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_443.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_443.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_45.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_45.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_46.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_46.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_47.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_47.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_5.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_5.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_51.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_51.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_52.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_52.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_53.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_53.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_54.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_54.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_55.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_55.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_56.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_56.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_59.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_59.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_6.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_60.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_60.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_61.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_61.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_62.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_62.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_63.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_63.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_64.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_64.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_65.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_65.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_66.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_66.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_67.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_67.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_68.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_68.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_69.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_69.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_7.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_8.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/def/effect_9.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/def/effect_9.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_0.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_0.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_105.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_105.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_106.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_106.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_107.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_107.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_109.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_109.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_2.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_3.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_309.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_309.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_310.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_310.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_315.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_315.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_316.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_316.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_318.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_318.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_362.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_362.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_363.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_363.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_364.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_364.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_4.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_46.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_46.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_47.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_47.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_54.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_54.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_6.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_7.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/816/soft/effect_8.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/816/soft/effect_8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/vibrator/vibrator_effect.json:$(TARGET_COPY_OUT_ODM)/etc/vibrator/vibrator_effect.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/wifi/peach/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0a \
     vendor/oneplus/infiniti/proprietary/odm/etc/wifi/peach/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0e \
     vendor/oneplus/infiniti/proprietary/odm/etc/wifi/peach/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0i \
@@ -1092,6 +1249,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/vibrator/effect2waveform.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/vibrator/effect2waveform.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/vibrator/effect_waveform.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/vibrator/effect_waveform.xml \
+    vendor/oneplus/infiniti/proprietary/product/etc/vibrator/effect_waveform_override.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/vibrator/effect_waveform_override.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/Hapticsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Hapticsconfig.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
@@ -1774,9 +1936,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
+    android.hardware.ir-service.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
+    android.hardware.ir-service \
     vendor.oplus.hardware.cammidasservice-V1-service
