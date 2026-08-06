@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPREC_version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPREC_version.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPSPT_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSPT_Version.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_effects_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects_config.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelMain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelMain.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelTele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelTele.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelWide.bin \
@@ -1890,6 +1891,7 @@ PRODUCT_PACKAGES += \
     libocce3a \
     libocompression \
     libomp \
+    liboplus_audiox \
     libopluscameraframeboost \
     liboplusdfx \
     libopluspdparam \
@@ -1916,6 +1918,9 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
+    libOplusAudioxAidl \
+    libOplusSpatializerAidl \
+    liboplusupmixeffect \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
