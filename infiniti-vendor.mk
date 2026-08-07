@@ -1868,6 +1868,7 @@ PRODUCT_PACKAGES += \
     libcreatebin \
     libcreatebinForBaseretouch \
     libcreatebinForFaceretouch \
+    libdisplayadfr2minfps_qcom \
     libdlrmsc \
     libdngsdkwrapper \
     libdolbyclstc \
