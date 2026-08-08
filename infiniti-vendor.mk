@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPREC_version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPREC_version.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPSPT_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPSPT_Version.txt \
     vendor/oneplus/infiniti/proprietary/odm/etc/audio_algos_ver/OPVE_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/audio_algos_ver/OPVE_Version.txt \
+    vendor/oneplus/infiniti/proprietary/odm/etc/audio_effects_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects_config.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelMain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelMain.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelTele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelTele.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelWide.bin \
@@ -897,6 +898,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/display/qdcm_calib_data_AD296_P_3_A0020_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AD296_P_3_A0020_dsc_cmd_mode_panel.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/infiniti/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/infiniti/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/infiniti/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
@@ -906,6 +908,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24863:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24863 \
     vendor/oneplus/infiniti/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplus_ftm_smart_pa.wav:$(TARGET_COPY_OUT_ODM)/etc/oplus_ftm_smart_pa.wav \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/resourcemanager.xml:$(TARGET_COPY_OUT_ODM)/etc/resourcemanager.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_ODM)/etc/sdm_display_resolution_extn.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/infiniti_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/infiniti_qrd_ois_system.json \
@@ -933,6 +956,28 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_rotation_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotation_detect.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/config/oplus_rotv.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotv.json \
     vendor/oneplus/infiniti/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MOVIE_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MOVIE_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_ANALOG.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_ANALOG.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_BLUETOOTH.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_DIGITAL.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_DIGITAL.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/HP_MUSIC_GALILEO.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/HP_MUSIC_GALILEO.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE_SPK.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE_SPK.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC_SPK.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC_SPK.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl10.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl10.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl6.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl6.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl7.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl7.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
+    vendor/oneplus/infiniti/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/infiniti/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/oneplus/infiniti/proprietary/odm/etc/wifi/peach/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0a \
     vendor/oneplus/infiniti/proprietary/odm/etc/wifi/peach/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/peach/bdwlan.b0e \
@@ -1706,6 +1751,7 @@ PRODUCT_PACKAGES += \
     libcreatebin \
     libcreatebinForBaseretouch \
     libcreatebinForFaceretouch \
+    libdisplayadfr2minfps_qcom \
     libdlrmsc \
     libdngsdkwrapper \
     libdolbyclstc \
@@ -1728,6 +1774,7 @@ PRODUCT_PACKAGES += \
     libocce3a \
     libocompression \
     libomp \
+    liboplus_audiox \
     libopluscameraframeboost \
     liboplusdfx \
     libopluspdparam \
@@ -1754,6 +1801,9 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
+    libOplusAudioxAidl \
+    libOplusSpatializerAidl \
+    liboplusupmixeffect \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
