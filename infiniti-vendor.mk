@@ -1914,7 +1914,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libsat \
     libsaveshaderbin \
-    libsensorbridge \
     libsharebuffer \
     libssd_det \
     libtensorflowlite_oplus \
